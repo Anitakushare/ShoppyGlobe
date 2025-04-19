@@ -16,17 +16,7 @@ function App() {
     <div className="flex-grow">
     <Outlet />
   </div>
-    {/* Global Toast notification container */}
-    <ToastContainer
-    position="top-right"
-    autoClose={3000}
-    hideProgressBar={false}
-    newestOnTop
-    closeOnClick
-    pauseOnHover
-    draggable
-    theme="dark"
-  />
+  
   <Footer />
     </div>
   )

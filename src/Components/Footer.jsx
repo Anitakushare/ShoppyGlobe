@@ -1,4 +1,4 @@
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { Phone, FacebookIcon, InstagramIcon, Globe, } from 'lucide-react';
 const Footer = () => {
     return (
       <footer className="bg-[#0B1C2C] text-gray-300 pt-10 pb-6 mt-auto">
@@ -36,10 +36,10 @@ At ShoppyGlobe, we believe shopping should be exciting, effortless, and accessib
           <div>
             <h2 className="text-white text-lg font-bold mb-3">Connect With Us</h2>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-pink-400"><FaFacebookF/></a>
-              <a href="#" className="hover:text-pink-400"><FaInstagram/></a>
-              <a href="#" className="hover:text-pink-400"><FaGithub/></a>
-              <a href="#" className="hover:text-pink-400">< FaLinkedinIn/></a>
+              <a href="#" className="hover:text-pink-400"><FacebookIcon/></a>
+              <a href="#" className="hover:text-pink-400"><InstagramIcon/></a>
+              <a href="#" className="hover:text-pink-400"><Phone/></a>
+              <a href="#" className="hover:text-pink-400">< Globe/></a>
             </div>
           </div>
         </div>
