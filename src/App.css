@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.slick-slide > div {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    width:100%;
+  }
+  .shine-text {
+    background: linear-gradient(
+      90deg,
+    #111827 0%,      
+    #E23C84 40%,
+    #111827 60%
+    );
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+   
+  }
+  
+  
