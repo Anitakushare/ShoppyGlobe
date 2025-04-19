@@ -1,9 +1,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import slide1 from '../assets/slide1.png';
-import slide2 from '../assets/slide2.png';
-import slide3 from '../assets/slide3.png';
+import slide1 from '../assets/slide12.webp';
+import slide2 from '../assets/slide2.webp';
+import slide3 from '../assets/slide3.webp';
 import '../App.css';
 
 // Slide Object with data 

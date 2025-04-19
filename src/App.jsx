@@ -2,7 +2,6 @@
 import './App.css'
 import Header from './Components/Header';
 import { Outlet } from 'react-router-dom'
-import { ToastContainer } from 'react-toastify';
 import Footer from './Components/Footer';
 
 // Main Application Layout
